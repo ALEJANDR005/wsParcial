@@ -1,0 +1,23 @@
+package logica;
+
+public  class HombreTMB extends calcularTMB{
+	
+	public HombreTMB(int peso, int estatura, int edad) {
+		super(peso, estatura, edad );
+		
+	}
+	
+	@Override
+	public  double Calcular() {
+		double TMB;
+		TMB = 88.362 + (13.397 *  peso) + (4.799 * estatura) - (5.677 * edad);
+		return TMB;
+		
+		
+		
+	}
+
+	
+	
+
+}

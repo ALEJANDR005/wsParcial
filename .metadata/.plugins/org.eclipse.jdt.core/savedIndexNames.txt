@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Universidad\Tercer Semestre\Diseño y Programación Orientada a Objetos\wsParcial\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1387487440.index
+2828327795.index

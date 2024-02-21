@@ -1,0 +1,39 @@
+package logica;
+
+public abstract class calcularTMB {
+	private int peso;
+	private int estatura;
+	private int edad;
+	private String genero;
+	public calcularTMB(int peso, int estatura, int edad) {
+		this.edad = edad;
+		this.estatura = estatura;
+		this.peso = peso;
+		
+	}
+	public int getPeso() {
+		return peso;
+	}
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	public int getEstatura() {
+		return estatura;
+	}
+	public void setEstatura(int estatura) {
+		this.estatura = estatura;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	
+	public abstract void Calcular();
+	
+	
+	
+
+}
